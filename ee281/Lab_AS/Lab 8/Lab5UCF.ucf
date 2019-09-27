@@ -1,0 +1,10 @@
+NET "clk" LOC = "T9";
+NET "SW<0>" LOC = "F12";
+NET "SW<1>" LOC = "G12";
+NET "SW<2>" LOC = "H14";
+NET "SW<3>" LOC = "H13";
+NET "SW<4>" LOC = "J14";
+NET "SW<5>" LOC = "J13";
+NET "SW<6>" LOC = "K14";
+NET "SW<7>" LOC = "K13";
+NET "output" LOC = "E6";

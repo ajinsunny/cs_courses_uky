@@ -1,0 +1,41 @@
+#!/bin/bash 
+
+#course : CS 216-002
+
+#Purpose of the bash script file: This is the bash script for Program 2
+
+
+# Programming Assignment 2 
+#Author : Ajin Sunny
+# Date : 03/07/15
+
+# First we print out the display menu for the user
+
+echo "Enjoying editing with my editor"
+echo "Please type a few lines of text to start with"
+echo "Click ctrl-d to stop typing and save to a file"
+echo "---------------------------------------"
+echo "| I n ---> insert the text to line n. |"
+echo "| D n ---> delete line n.             |"
+echo "| L   ---> list all lines.            |"
+echo "| Q   ---> save into a file and quit. |"
+echo "---------------------------------------"
+
+# Now we wait for the user to input the option and store it in inputfile 
+
+cat > testfile.txt
+ 
+
+# Now we run the cpp file with the test file.
+
+./myEditor testfile.txt
+
+#Thank you message 
+
+echo "Thank you for using my editor."
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+(1 points) What standard function is used to compute the length of a C string?
+______________________________________
+
+(1 points) What type would you use to represent the diameter of a coin in inches?
+
+(1 points) A member function that modifies its object is called a:
+
+(1 points) Which of the following values of n would mane (n < 0 && n > 10) true?
+
+(1 points) Which header file must be included to use an object of the string class?
+
+(2 points) Write the prototype for a function that swaps two integers a and b.
+______________________________________
+
+(1 points) When used in an expression, the name of an array is converted into:
+
+(6 points) Write a function that removes the first element from an array, keeping the order of the other elements.
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+
+(1 points) Which of the following defined a reference parameter?
+
+(1 points) In inheritance, what is the technical term for the "parent" class?
+______________________________________
+
+(5 points) List at least two reasons to use a reference parameter. List at least one reason to use a value parameter.
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+
+(1 points) In the statement value = scores[k], what do we call k?
+
+(1 points) List the parameter(s) and their types for a copy constructor of the Bicycle class.
+______________________________________
+
+(1 points) What is the term for separating the interface of code from its implementation?
+______________________________________
+
+(10 points) A US address has a name, a street, a street number, a city name, a two-letter state abbreviation, and a zip code. Write a definition for the Address class with data members and accessors for all of these values, and at least two constructors. Write an implementation for Address's copy constructor.
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+
+(1 points) In inheritance, what is the technical term for the "child" class?
+______________________________________
+
+(1 points) What is the name for the region of memory used for dynamic allocation?
+
+(1 points) Which of the following is not a kind of loop in C++?
+
+(5 points) What is the difference between an object and a class? Give at least three examples of each.
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+
+(1 points) What keyword is required for a function to be polymorphic?
+______________________________________
+
+(1 points) What class is used to read from a file?
+
+(5 points) How are pointers and references similar? How are they different?
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+
+(6 points) Write a function that takes a C string and replaces every space character with an underscore '_'.
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+
+(1 points) When calling a member function like register1.add_item(1.95), how does add_item get access to the register1 object?
+

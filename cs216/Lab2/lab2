@@ -1,0 +1,12 @@
+#!/bin/bash
+clear
+hname=`hostname`
+echo 'Welcome on $hname!'
+echo 'Oops.'
+echo
+echo "Welcome on $hname!"
+echo -n "It is currently:"
+echo -n "I am logged on as: ";whoami
+echo -n "I am currently in the directory: ";pwd
+echo " `bash --version`"
+

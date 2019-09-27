@@ -1,0 +1,21 @@
+
+PRELAB Lab 3 
+
+
+module prelab_1(W,X,Y,Z,F);
+input W;
+input X;
+input Y;
+input Z;
+output F;
+wire wire1;
+wire wire2;
+wire wire3;
+
+	assign wire1 = ~X & ~Y & ~Z;
+	assign wire2 = ~W & ~Y & ~Z;
+	assign wire3 = W & ~X & Y;
+	assign F = wire1 | wire2 | wire3;
+	
+endmodule;
+

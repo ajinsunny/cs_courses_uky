@@ -1,0 +1,31 @@
+//course: CS 216-002
+//Project: Lab Assignment 7 
+//Date: 03/25/15
+//Program: Lab 7 
+//Purpose: This is a Report file for the difference in outputs for lab7.
+//Author: Ajin Sunny  
+
+Difference between Lab7_1 and Lab7_2
+
+As you notice in lab7_1.cpp the main function is run without a try and catch block therefore any exception that is encountered will not behandled properly. If you notice in lab7_2.cpp the exception of division by zero is hadled by using a try and catch block therefore this reflects in the difference in output.  
+
+Difference between Lab7_0 and other two cpp files 
+
+In Lab7_0 the removal of if statement will not even set a condition for checking if the exception condition is handled or not. Therefore it will print the output termination error instead of printing the correct error through try and catch block. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

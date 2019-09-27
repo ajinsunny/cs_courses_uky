@@ -1,0 +1,13 @@
+Brown,Charlie	  10640227      Undergrad-Sophomore
+Pooh,Winnie	  10261821      Undergrad-Sophomore
+Snowman,Olaf      10299673	Undergrad-Freshman
+Brown,Sally       10369018 	Undergrad-Freshman
+Jean,Peggy        10086833	Undergrad-Sophomore
+Potter,Harry   	  10302340    	Undergrad-Junior
+Weasley,Ronald    10380441	Undergrad-Junior
+Granger,Hermione  10251388 	Undergrad-Non-degree-seeking
+Weasley,Ginny     10295098	Undergrad-Junior
+Rabbit,Peter      10383584	Undergrad-Freshman
+Bunny,Benjamin    10618769 	Undergrad-Freshman
+Star,Patrick      10210023 	Undergrad-Senior
+Sponge,Bob    	  10382149    	Undergrad-Senior

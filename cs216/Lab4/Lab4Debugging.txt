@@ -1,0 +1,10 @@
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400d9c in Node::SetNext (this=0x0, aNext=0x603030) at LinkedList.h:16
+16	    void SetNext(Node* aNext) ä next = aNext; å; 
+(gdb) up
+#1  0x0000000000400c53 in List::Append (this=0x7fffffffe870, data=200) at LinkedList.cpp:52
+52	        tmp->SetNext(newNode);
+(gdb) up
+#2  0x000000000040096f in main () at main.cpp:13
+13	    list.Append(200);
+

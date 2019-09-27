@@ -1,0 +1,164 @@
+// Code for Prelab A digital thermometer
+
+
+
+module topmodule(clk,input,AN, ssegdisp);
+		input clk;
+		input [7:0]input;  		
+
+
+
+
+
+
+
+		always@(posedge clk)
+		begin
+				data <= input
+		end
+		assign adjdata = data -73;
+
+
+		always@(adjdata)
+		begin 
+				case(adjdata)
+					23:degreef=73;
+					24:degreef=75;
+					25:degreef=77;
+					26:degreef=79;
+					27:degreef=81;
+					28:degreef=82;
+					29:degreef=84;
+					30:degreef=86;
+					31:degreef=88;
+					32:degreef=90;
+					33:degreef=91;
+					34:degreef=93;
+					35:degreef=95;
+					36:degreef=97;
+					default: degreef=0;
+					endcase
+		end
+
+		binary_to_BCD bin(degreef, ONES,TENS,HUNDREDS);
+
+		always@(posedge clk)
+		begin 
+				if(count<65535)
+						segselect=00;
+				else if(count<131071)
+						segselect=01;
+				else
+						segselect=11;
+				count++;
+		end
+
+		always@(posedge clk)
+		begin
+				if(segselect==2b'00)
+				begin
+						AN=4b'1110;
+						case(ONES)
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							default:ssegdisp = 8'b11111111;
+						endcase
+				end
+				else if(segselect==2'b01)
+				begin
+						AN = 4'b1101;
+						case(TENS)
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							4b'0000:ssegdisp = 8'b11000000;
+							default:ssegdisp = 8'b11111111;
+						endcase
+				end
+				else if(segselect==2'b10)
+				begin 
+						AN = 4b'1011
+						case(HUNDREDS)
+							2'b00:ssegdisp=8'b11000000;
+							2'b00:ssegdisp=8'b11000000;
+							2'b00:ssegdisp=8'b11000000;
+							2'b00:ssegdisp=8'b11000000;
+							default: sseg =8'b11111111;
+						endcase
+				end
+
+				else
+						ssegdisp = 8'b11111111;
+
+		end
+
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+(1 points) 
+
+(1 points)
+
+(d) is the correct answer
+
+
+(c) is the correct answer
+
+
+(f) is the correct answer
+
+
+(b) is the correct answer
+
+
+(2 points) 
+
+(2 points)
+void swap(int &a, int &b);
+
+(a) is the correct answer
+
+
+(6 points) 
+
+void remove_first(int array[], int &size)
+{
+    // Move each subsequent element back by one position.  This overwrites
+    // the element at index zero.
+    for (int i = 1; i < size; i++)
+        array[i - 1] = array[i];
+
+    // And decrease the size so we don't have a duplicate of the last element.
+    size--;
+}
+
+
+(d) is the correct answer
+
+
+(1 points) 
+
+(1 points)
+
+(5 points) 
+
+You would use a reference parameter if you need to change the argument and have the change reflected in the caller (for example, if your function has more than one output, so the return value isn't sufficient), or if you need to get the argument itself instead of a copy of it (for example, in a copy constructor). You would use a value parameter in most other cases: in particular, if you need to modify the parameter but not change the original argument, you should use a value parameter. Also, if your function needs to accept a literal argument, it must use a value parameter, because references parameters only accept variables, not literals.
+
+
+(b) is the correct answer
+
+
+(1 points) 
+
+(1 points)
+const Bicycle &other
+
+(1 points) 
+
+(1 points)
+
+(10 points) 
+
+// Class definition.
+class Address {
+public:
+    Address();
+    Address(const Address &original);
+
+    string get_name() const;
+    string get_street() const;
+    string get_street_number() const;
+    string get_city() const;
+    string get_state() const; // Can't return an array.
+    int get_zipcode() const;
+
+private:
+    string name;
+    string street;
+    string street_number; // "221B" isn't really a number :(
+    string city;
+    char state[2]; // or string
+    int zipcode;   // or string, to handle ZIP+4: 40506-1234
+};
+
+// Copy constructor implementation.
+Address::Address(const Address &original)
+{
+    name = original.name;
+    street = original.street;
+    street_number = original.street_number;
+    city = original.city;
+    // Copy the state abbreviation one letter at a time.
+    for (int i = 0; i < 1; i++)
+        state[i] = original.state[i];
+    zipcode = original.zipcode;
+}
+
+
+(1 points) 
+
+(1 points)
+derived class
+
+(e) is the correct answer
+
+
+(b) is the correct answer
+
+
+(5 points) 
+
+An object represents a thing, and can be stored in a variable. A class describes a set of objects with the same behavior: classes are the types to which objects belong. string, ifstream, and vector<int> are classes. cout, cin, and string name are objects.
+
+
+(1 points) 
+
+(1 points)
+
+(e) is the correct answer
+
+
+(5 points) 
+
+Pointers and references both allow creating an alias for another variable: a reference parameter is another name for the argument variable, while a pointer can point to a variable so that *p refers to the variable itself. However, references can be used directly the same as the original variable, while pointers require & to get a pointer to a variable and * to get the variable from a pointer. Furthermore, pointers can point to nothing (the NULL pointer), while references always refer to something.
+
+
+(6 points) 
+
+void despacify(char *str)
+{
+    // For each character (stopping at the null terminator)
+    for (int i = 0; str[i] != '\0'; i++) {
+        // Replace the character if it is a space
+        if (str[i] == ' ')
+            str[i] = '_';
+    }
+}
+
+
+(c) is the correct answer
+
+

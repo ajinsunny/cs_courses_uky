@@ -1,0 +1,35 @@
+1. (1 point) Which header file must be included to use
+   an object of the string class?
+ a. namespace std
+ b. string
+ c. string.h
+ d. cstring
+ e. iostream
+
+   ____
+
+
+2. (2 points) Write the protype for a function that
+   swaps two integers a and b:
+
+   ___________________________________
+
+
+3. (5 points) How are pointers and references similar?
+   How are they different?
+
+   ___________________________________
+   ___________________________________
+   ___________________________________
+   ___________________________________
+   ___________________________________
+
+
+4. (6 points) Write a function that takes a C string and
+   replaces every space character with an underscore '_'.
+   
+   ___________________________________
+   ___________________________________
+   ___________________________________
+   ___________________________________
+   ___________________________________

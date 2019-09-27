@@ -1,0 +1,33 @@
+#####TESTING SCRIPT DEVELOPED FOR CS315 JWJ CS UK
+#####Version February 1, 2017
+#####For class use only -- otherwise use on your own risk
+#####Do not distribute
+
+##### HOW TO RUN THE TESTER ###############################
+
+- Make sure it is executable
+chmod +x test.sh
+
+- How to test cpp program with tester
+./test.sh cpp
+
+- How to test java program with tester
+./test.sh java
+
+
+##### JAVA INFO ###########################################
+
+- How to manually compile java
+javac FileName.java
+
+- How to manually run java
+java FileName < ./tests/input#.in
+
+
+##### C++ INFO ############################################
+
+- How to manually compile cpp
+g++ -std=c++11 file_name.cpp
+
+- How to manually run cpp
+./file_name.out < ./tests/input#.in

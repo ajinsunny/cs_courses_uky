@@ -1,0 +1,65 @@
+#!/bin/bash
+
+
+#course: CS216 - 001
+#Project: Lab Assignment 3
+#Date: 02/4/15
+#Purpose: Getting familiar with Unix/Linux environment
+#        • Learning to create your own shell script.
+#        • Learning how to use command line arguments
+#Author: Ajin Sunny
+
+
+# run the script with one command line argument, which represents the input file name
+# $./lab3 cs216roster.txt
+# cs216roster.txt is the input file as the argument
+# display the following menu to let the user choose an option:
+# if option is 1, output file will sort the roster in ascending order of students' ID
+# if option is 2, output file will sort the roster in dictionary order of students' firstname
+# if option is 3, output file will sort the roster in reverse dictionary order of students' lastname
+# if option is other integer, display the message of invalid option
+
+if [ $# -eq 0 ]
+then 
+     echo "Warning: no command line argument."
+     echo "Usage: $0 <inputfile_name>."
+     exit 1
+fi
+echo "Sort the roster in one of three orders:"
+echo "1. ascending order of students' ID"
+echo "2. dictionary order of students' firstname"
+echo "3. reverse dictionary order of students' lastname"
+echo
+#ask the user to input the option and store it into variable use_option
+echo "Please input your option: "
+read usr_option
+output_file1="ID_output"
+output_file2="FirstName_output"
+output_file3="LastName_reverse"
+#write your if statements to complete the shell script
+#generate output file named ID_output for option=1
+#generate output file named FirstName_output for option=2
+#generate output file named LastName_reverse_output for option=3
+#no output file is generated when option is not valid
+if [ "$usr_option" == "1" ]
+then
+	echo "Your choice is: $usr_option"
+	sort -k 2 "cs216roster.txt" >"ID_output.txt" 
+	echo "Please check the output file:$output_file1"
+else if [ "$usr_option" == "2" ]
+	then 	echo "Your choice is: $usr_option"
+		sort -t , -k 2 "cs216roster.txt" > "FirstName_output.txt"
+		echo "Please check the output file: $output_file2"
+		
+	else if [ "$usr_option" == "3" ]
+		then 	echo "Your choice is: $usr_option"
+			sort -r -t , -k 1 "cs216roster.txt" > "LastName_reverse.txt"
+			echo "Please check the output file:$output_file3"
+
+	else
+	echo "Invalid Option"
+	fi
+    fi
+
+fi
+

@@ -1,0 +1,26 @@
+1. (1 point)
+   b. string
+
+2. (2 points)
+   void swap(int &a, int &b);
+   void swap(int& a, int& b);
+
+3. (5 points)
+   Pointers and references both allow creating an alias for another variable: a
+   reference parameter is another name for the argument variable, while a
+   pointer can point to a variable so that *p refers to the variable itself.
+   However, references can be used directly the same as the original variable,
+   while pointers require & to get a pointer to a variable and * to get the
+   variable from a pointer. Furthermore, pointers can point to nothing (the
+   NULL pointer), while references always refer to something.
+
+4. (6 points)
+   void despacify(char *str)
+   {
+       // For each character (stopping at the null terminator)
+       for (int i = 0; str[i] != '\0'; i++) {
+           // Replace the character if it is a space
+           if (str[i] == ' ')
+               str[i] = '_';
+       }
+   }

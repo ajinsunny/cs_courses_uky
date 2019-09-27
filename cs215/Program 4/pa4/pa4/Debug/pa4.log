@@ -1,0 +1,24 @@
+﻿Build started 12/5/2013 10:49:43 PM.
+     1>Project "C:\Users\Ajin\Desktop\CS 215\CS215\asu232\pa4\pa4\pa4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt board.cpp game.cpp wordlist.cpp
+         wordlist.cpp
+         game.cpp
+     1>c:\users\ajin\desktop\cs 215\cs215\asu232\pa4\pa4\game.cpp(75): warning C4018: '<' : signed/unsigned mismatch
+         board.cpp
+     1>c:\users\ajin\desktop\cs 215\cs215\asu232\pa4\pa4\board.cpp(62): warning C4018: '>=' : signed/unsigned mismatch
+         Generating Code...
+     1>c:\users\ajin\desktop\cs 215\cs215\asu232\pa4\pa4\game.cpp(50): warning C4715: 'Game::is_ended' : not all control paths return a value
+     1>c:\users\ajin\desktop\cs 215\cs215\asu232\pa4\pa4\game.cpp(92): warning C4715: 'Game::whether_legal' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ajin\Desktop\CS 215\CS215\asu232\pa4\Debug\pa4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ajin\Desktop\CS 215\CS215\asu232\pa4\Debug\pa4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ajin\Desktop\CS 215\CS215\asu232\pa4\Debug\pa4.lib" /MACHINE:X86 Debug\board.obj
+         Debug\game.obj
+         Debug\letters.obj
+         Debug\pa4.obj
+         Debug\wordlist.obj
+         pa4.vcxproj -> C:\Users\Ajin\Desktop\CS 215\CS215\asu232\pa4\Debug\pa4.exe
+     1>Done Building Project "C:\Users\Ajin\Desktop\CS 215\CS215\asu232\pa4\pa4\pa4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.20

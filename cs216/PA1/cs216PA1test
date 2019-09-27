@@ -1,0 +1,47 @@
+#!/bin/bash
+
+#Course: CS216 - 002 
+#Project: Programming Assignment 2 
+#Date: 2/25/15
+#Purpose: This is the bash script which is used to run the Program 1 cpp file . This receives 4 command line arguments with the three text files and the user input student ID along with the cpp file of the program to perform the execution. 
+
+# Author: Ajin Sunny
+
+if [ $# -eq 0 ]
+then 
+   echo "Warning: no command line argument."
+   echo "Usage: $0 <inputfile_name>."
+   exit 1 
+fi 
+
+while true 
+do
+    echo 
+    echo "Student Information Search..."
+    echo "Enter <Q or q> to quit the program"
+    echo "Enter any other key to continue..."
+        
+    read user_option 
+
+    if [ "$user_option" == "q" ] || [ "$user_option" == "Q" ]
+    then 
+        echo "Thank you for using the program !"
+        break
+    fi
+
+    echo "Please enter a student ID"
+    read ID
+
+    if [ "$ID" -gt 10081854 ] && [ "$ID" -lt 10642237 ]
+    then 
+        "./$1" $ID "./sec1students.txt" "./sec2students.txt" "./studentcourses.txt"
+    else 
+        echo "Invalid Student ID"
+    fi 
+
+    echo 
+
+done 
+
+
+exit 0
