@@ -1,7 +1,0 @@
-NET "d1" LOC = "J14";
-NET "d2" LOC = "H13";
-NET "P0" LOC = "H14";
-NET "A1" LOC = "G12";
-NET "A0" LOC = "F12";
-NET "X0" LOC = "K12";
-NET "X1" LOC = "P14";
