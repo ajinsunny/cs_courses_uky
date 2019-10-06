@@ -1,0 +1,11 @@
+.\objects\lm4f_startup.o: ..\stellaris-launchpad-video-player-master\LM4F_startup.c
+.\objects\lm4f_startup.o: ..\Project\lm4f120h5qr.h
+.\objects\lm4f_startup.o: ..\Project\hw_gpio.h
+.\objects\lm4f_startup.o: ..\Project\hw_memmap.h
+.\objects\lm4f_startup.o: ..\Project\hw_sysctl.h
+.\objects\lm4f_startup.o: ..\Project\hw_types.h
+.\objects\lm4f_startup.o: ..\Project\gpio.h
+.\objects\lm4f_startup.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\objects\lm4f_startup.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\lm4f_startup.o: ..\Project\rom.h
+.\objects\lm4f_startup.o: ..\Project\sysctl.h

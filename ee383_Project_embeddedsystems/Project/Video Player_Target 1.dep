@@ -1,0 +1,50 @@
+Dependencies for Project 'Video Player', Target 'Target 1': (DO NOT MODIFY !)
+F (..\stellaris-launchpad-video-player-master\LM4F_startup.c)(0x548B1D22)(-c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork -I..\Project -I.\driverlib -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\Device\ARM\ARMCM4\Include-o .\objects\lm4f_startup.o --omf_browse .\objects\lm4f_startup.crf --depend .\objects\lm4f_startup.d)
+I (..\Project\lm4f120h5qr.h)(0x548B1B4A)
+I (..\Project\hw_gpio.h)(0x522C9780)
+I (..\Project\hw_memmap.h)(0x522C9780)
+I (..\Project\hw_sysctl.h)(0x522C9780)
+I (..\Project\hw_types.h)(0x522C9780)
+I (..\Project\gpio.h)(0x548B1D41)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5346D4F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5346D4F4)
+I (..\Project\rom.h)(0x522C977E)
+I (..\Project\sysctl.h)(0x522C977E)
+F (..\stellaris-launchpad-video-player-master\loop.h)(0x51758860)()
+F (..\stellaris-launchpad-video-player-master\main.c)(0x548B1A87)(-c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork -I..\Project -I.\driverlib -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\Device\ARM\ARMCM4\Include-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Project\lm4f120h5qr.h)(0x548B1B4A)
+I (..\Project\hw_gpio.h)(0x522C9780)
+I (..\Project\hw_memmap.h)(0x522C9780)
+I (..\Project\hw_sysctl.h)(0x522C9780)
+I (..\Project\hw_types.h)(0x522C9780)
+I (..\Project\gpio.h)(0x548B1D41)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5346D4F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5346D4F4)
+F (..\stellaris-launchpad-video-player-master\sd.c)(0x548B1B1B)(-c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork -I..\Project -I.\driverlib -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\Device\ARM\ARMCM4\Include-o .\objects\sd.o --omf_browse .\objects\sd.crf --depend .\objects\sd.d)
+I (..\stellaris-launchpad-video-player-master\SD.h)(0x548B1BBB)
+I (..\Project\lm4f120h5qr.h)(0x548B1B4A)
+I (..\Project\hw_types.h)(0x522C9780)
+I (..\Project\hw_gpio.h)(0x522C9780)
+I (..\Project\hw_memmap.h)(0x522C9780)
+I (..\Project\hw_sysctl.h)(0x522C9780)
+I (..\Project\hw_ssi.h)(0x548B1C38)
+I (..\Project\ssi.h)(0x548B1C7F)
+I (..\Project\sysctl.h)(0x522C977E)
+F (..\stellaris-launchpad-video-player-master\SD.h)(0x548B1BBB)()
+F (..\stellaris-launchpad-video-player-master\TFT.c)(0x548B1E00)(-c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork -I..\Project -I.\driverlib -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\Device\ARM\ARMCM4\Include-o .\objects\tft.o --omf_browse .\objects\tft.crf --depend .\objects\tft.d)
+I (..\stellaris-launchpad-video-player-master\TFT.h)(0x51758860)
+I (..\Project\lm4f120h5qr.h)(0x548B1B4A)
+I (..\Project\hw_gpio.h)(0x522C9780)
+I (..\Project\hw_memmap.h)(0x522C9780)
+I (..\Project\hw_sysctl.h)(0x522C9780)
+I (..\Project\hw_types.h)(0x522C9780)
+I (..\Project\gpio.h)(0x548B1D41)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5346D4F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5346D4F4)
+I (..\Project\rom.h)(0x522C977E)
+I (..\Project\sysctl.h)(0x522C977E)
+I (..\Project\uart.h)(0x522C977E)
+F (..\stellaris-launchpad-video-player-master\TFT.h)(0x51758860)()
+F (.\lm4f120h5qr.h)(0x548B1B4A)()
+F (.\gpio.h)(0x548B1D41)()
+F (.\startup.s)(0x52767D52)(--cpu Cortex-M4 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\Device\ARM\ARMCM4\Include--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)

@@ -1,0 +1,9 @@
+.\objects\main.o: ..\stellaris-launchpad-video-player-master\main.c
+.\objects\main.o: ..\Project\lm4f120h5qr.h
+.\objects\main.o: ..\Project\hw_gpio.h
+.\objects\main.o: ..\Project\hw_memmap.h
+.\objects\main.o: ..\Project\hw_sysctl.h
+.\objects\main.o: ..\Project\hw_types.h
+.\objects\main.o: ..\Project\gpio.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h

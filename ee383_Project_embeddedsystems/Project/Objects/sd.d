@@ -1,0 +1,10 @@
+.\objects\sd.o: ..\stellaris-launchpad-video-player-master\sd.c
+.\objects\sd.o: ..\stellaris-launchpad-video-player-master\SD.h
+.\objects\sd.o: ..\Project\lm4f120h5qr.h
+.\objects\sd.o: ..\Project\hw_types.h
+.\objects\sd.o: ..\Project\hw_gpio.h
+.\objects\sd.o: ..\Project\hw_memmap.h
+.\objects\sd.o: ..\Project\hw_sysctl.h
+.\objects\sd.o: ..\Project\hw_ssi.h
+.\objects\sd.o: ..\Project\ssi.h
+.\objects\sd.o: ..\Project\sysctl.h

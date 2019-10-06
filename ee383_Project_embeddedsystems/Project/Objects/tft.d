@@ -1,0 +1,13 @@
+.\objects\tft.o: ..\stellaris-launchpad-video-player-master\TFT.c
+.\objects\tft.o: ..\stellaris-launchpad-video-player-master\TFT.h
+.\objects\tft.o: ..\Project\lm4f120h5qr.h
+.\objects\tft.o: ..\Project\hw_gpio.h
+.\objects\tft.o: ..\Project\hw_memmap.h
+.\objects\tft.o: ..\Project\hw_sysctl.h
+.\objects\tft.o: ..\Project\hw_types.h
+.\objects\tft.o: ..\Project\gpio.h
+.\objects\tft.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\objects\tft.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\tft.o: ..\Project\rom.h
+.\objects\tft.o: ..\Project\sysctl.h
+.\objects\tft.o: ..\Project\uart.h

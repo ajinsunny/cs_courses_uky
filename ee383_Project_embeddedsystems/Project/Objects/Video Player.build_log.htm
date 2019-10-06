@@ -1,0 +1,168 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Derek\Dropbox\College\3- Junior\Semester 1\EE 383 - Introduction to Embedded Systems\Project\Project\Video Player.uvprojx
+Project File Date:  12/12/2014
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling LM4F_startup.c...
+..\stellaris-launchpad-video-player-master\LM4F_startup.c(87): warning:  #144-D: a value of type "void *" cannot be used to initialize an entity of type "void (*)(void)"
+      (void (*)) &_stack_top, 
+..\stellaris-launchpad-video-player-master\LM4F_startup.c(298): warning:  #223-D: function "ROM_SysCtlDelay" declared implicitly
+                ROM_SysCtlDelay(1000000);
+..\stellaris-launchpad-video-player-master\LM4F_startup.c(311): warning:  #223-D: function "ROM_SysCtlDelay" declared implicitly
+                ROM_SysCtlDelay(10000000);
+..\stellaris-launchpad-video-player-master\LM4F_startup.c(323): warning:  #223-D: function "ROM_SysCtlDelay" declared implicitly
+                ROM_SysCtlDelay(1000000);
+..\stellaris-launchpad-video-player-master\LM4F_startup.c: 4 warnings, 0 errors
+compiling main.c...
+..\stellaris-launchpad-video-player-master\main.c(32): error:  #5: cannot open source input file "hw_timer.h": No such file or directory
+  #include "hw_timer.h"
+..\stellaris-launchpad-video-player-master\main.c: 0 warnings, 1 error
+compiling sd.c...
+..\Project\hw_ssi.h(244): warning:  #1-D: last line of file ends without a newline
+  #endif // __HW_SSI_H__
+..\Project\ssi.h(118): error:  #20: identifier "tBoolean" is undefined
+  extern unsigned long SSIIntStatus(unsigned long ulBase, tBoolean bMasked);
+..\Project\ssi.h(122): error:  #20: identifier "tBoolean" is undefined
+  extern tBoolean SSIBusy(unsigned long ulBase);
+..\Project\sysctl.h(471): error:  #20: identifier "uint32_t" is undefined
+  extern uint32_t SysCtlSRAMSizeGet(void);
+..\Project\sysctl.h(472): error:  #20: identifier "uint32_t" is undefined
+  extern uint32_t SysCtlFlashSizeGet(void);
+..\Project\sysctl.h(473): error:  #20: identifier "bool" is undefined
+  extern bool SysCtlPeripheralPresent(uint32_t ui32Peripheral);
+..\Project\sysctl.h(473): error:  #20: identifier "uint32_t" is undefined
+  extern bool SysCtlPeripheralPresent(uint32_t ui32Peripheral);
+..\Project\sysctl.h(474): error:  #20: identifier "bool" is undefined
+  extern bool SysCtlPeripheralReady(uint32_t ui32Peripheral);
+..\Project\sysctl.h(474): error:  #20: identifier "uint32_t" is undefined
+  extern bool SysCtlPeripheralReady(uint32_t ui32Peripheral);
+..\Project\sysctl.h(475): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralPowerOn(uint32_t ui32Peripheral);
+..\Project\sysctl.h(476): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralPowerOff(uint32_t ui32Peripheral);
+..\Project\sysctl.h(477): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralReset(uint32_t ui32Peripheral);
+..\Project\sysctl.h(478): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralEnable(uint32_t ui32Peripheral);
+..\Project\sysctl.h(479): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralDisable(uint32_t ui32Peripheral);
+..\Project\sysctl.h(480): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralSleepEnable(uint32_t ui32Peripheral);
+..\Project\sysctl.h(481): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralSleepDisable(uint32_t ui32Peripheral);
+..\Project\sysctl.h(482): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralDeepSleepEnable(uint32_t ui32Peripheral);
+..\Project\sysctl.h(483): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlPeripheralDeepSleepDisable(uint32_t ui32Peripheral);
+..\Project\sysctl.h(484): error:  #20: identifier "bool" is undefined
+  extern void SysCtlPeripheralClockGating(bool bEnable);
+..\Project\sysctl.h(487): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlIntEnable(uint32_t ui32Ints);
+..\Project\sysctl.h(488): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlIntDisable(uint32_t ui32Ints);
+..\Project\sysctl.h(489): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlIntClear(uint32_t ui32Ints);
+..\Project\sysctl.h(490): error:  #20: identifier "uint32_t" is undefined
+  extern uint32_t SysCtlIntStatus(bool bMasked);
+..\Project\sysctl.h(490): error:  #20: identifier "bool" is undefined
+  extern uint32_t SysCtlIntStatus(bool bMasked);
+..\Project\sysctl.h(491): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlLDOConfigSet(uint32_t ui32Config);
+..\Project\sysctl.h(495): error:  #20: identifier "uint32_t" is undefined
+  extern uint32_t SysCtlResetCauseGet(void);
+..\Project\sysctl.h(496): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlResetCauseClear(uint32_t ui32Causes);
+..\Project\sysctl.h(497): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlBrownOutConfigSet(uint32_t ui32Config,
+..\Project\sysctl.h(498): error:  #20: identifier "uint32_t" is undefined
+                                      uint32_t ui32Delay);
+..\Project\sysctl.h(499): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlDelay(uint32_t ui32Count);
+..\Project\sysctl.h(500): error:  #20: identifier "uint32_t" is undefined
+  extern void SysCtlMOSCConfigSet(uint32_t ui32Config);
+..\stellaris-launchpad-video-player-master\sd.c: 1 warning, 30 errors
+compiling TFT.c...
+..\stellaris-launchpad-video-player-master\TFT.c(38): error:  #29: expected an expression
+                for(volatile int x=0;x<10000;x++);
+..\stellaris-launchpad-video-player-master\TFT.c(38): error:  #20: identifier "x" is undefined
+                for(volatile int x=0;x<10000;x++);
+..\stellaris-launchpad-video-player-master\TFT.c(50): warning:  #191-D: type qualifier is meaningless on cast type
+      CS_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(51): warning:  #191-D: type qualifier is meaningless on cast type
+      RS_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(52): warning:  #191-D: type qualifier is meaningless on cast type
+      RD_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(53): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(54): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(56): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(57): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(59): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(60): warning:  #191-D: type qualifier is meaningless on cast type
+      CS_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(65): warning:  #191-D: type qualifier is meaningless on cast type
+      CS_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(66): warning:  #191-D: type qualifier is meaningless on cast type
+      RS_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(67): warning:  #191-D: type qualifier is meaningless on cast type
+      RD_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(69): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(71): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(73): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(75): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(77): warning:  #191-D: type qualifier is meaningless on cast type
+      CS_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(82): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(83): warning:  #191-D: type qualifier is meaningless on cast type
+        CS_LOW;
+..\stellaris-launchpad-video-player-master\TFT.c(84): warning:  #191-D: type qualifier is meaningless on cast type
+      RS_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(85): warning:  #191-D: type qualifier is meaningless on cast type
+      RD_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(87): warning:  #191-D: type qualifier is meaningless on cast type
+      WR_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(89): warning:  #191-D: type qualifier is meaningless on cast type
+      CS_HIGH;
+..\stellaris-launchpad-video-player-master\TFT.c(97): error:  #29: expected an expression
+      for(unsigned char i=0;i<2;i++)
+..\stellaris-launchpad-video-player-master\TFT.c(97): error:  #20: identifier "i" is undefined
+      for(unsigned char i=0;i<2;i++)
+..\stellaris-launchpad-video-player-master\TFT.c(101): error:  #29: expected an expression
+          for(unsigned int f=0;f<38400;f++)
+..\stellaris-launchpad-video-player-master\TFT.c(101): error:  #20: identifier "f" is undefined
+          for(unsigned int f=0;f<38400;f++)
+..\stellaris-launchpad-video-player-master\TFT.c(114): warning:  #223-D: function "ROM_SysCtlPeripheralEnable" declared implicitly
+          ROM_SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOD|SYSCTL_PERIPH_GPIOB|SYSCTL_PERIPH_GPIOC);
+..\stellaris-launchpad-video-player-master\TFT.c(262): warning:  #223-D: function "ROM_SysCtlPeripheralEnable" declared implicitly
+          ROM_SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOB);
+..\stellaris-launchpad-video-player-master\TFT.c(263): error:  #65: expected a ";"
+          GPIO_PORTB_DIR_R = 0b11111111;
+..\stellaris-launchpad-video-player-master\TFT.c(264): error:  #65: expected a ";"
+          GPIO_PORTB_DEN_R = 0b11111111;
+..\stellaris-launchpad-video-player-master\TFT.c(312): warning:  #223-D: function "abs" declared implicitly
+      int dx = abs(x), sx = x0<x1 ? 1 : -1;
+..\stellaris-launchpad-video-player-master\TFT.c(339): error:  #29: expected an expression
+      for(unsigned int i=0;i<length;i++)
+..\stellaris-launchpad-video-player-master\TFT.c(339): error:  #20: identifier "i" is undefined
+      for(unsigned int i=0;i<length;i++)
+..\stellaris-launchpad-video-player-master\TFT.c: 26 warnings, 10 errors
+assembling startup.s...
+".\Objects\Video Player.axf" - 41 Error(s), 31 Warning(s).
+Target not created
+</pre>
+</body>
+</html>
